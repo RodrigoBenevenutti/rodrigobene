@@ -1,0 +1,41 @@
+.card-body{
+    background-color: rgb(222, 236, 236);
+}
+
+#logo-img{
+    width: 200px;    
+}
+
+#ro_h1{
+    color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: solid 1px orangered;
+    display: inline;
+   
+  
+}
+.lead{
+    color: royalblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ro_footer{
+    background-color: rgb(195, 227, 240);
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+   
+}
+p[class ="lead"] {
+    border-bottom: solid 1px orangered;
+    display: inline;
+    
+}
+h1[class="display-4"]{
+    border-bottom: solid 1px orangered;
+    display: inline;
+    
+}
+#rod_foto1{
+    height: 250px;
+
+}
