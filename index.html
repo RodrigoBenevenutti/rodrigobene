@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/rodri.css">
-
+    
     <title>PowerCom</title>
   </head>
   <body>
@@ -132,7 +132,8 @@
           <div class="card-body">
             <h1 class="card-title pricing-card-title"> <small class="text-muted"></small></h1>
             <img src="/img/folder-icon-128x128.png" alt="">
-            <button type="button" class="btn btn-lg btn-block btn-outline-primary">entrar</button>
+            <button type="button" onclick='loadPage()' class="btn btn-lg btn-block btn-outline-primary" >acceder</button>
+            
           </div>
         </div>
         <div class="card mb-4 shadow-sm">
@@ -146,12 +147,16 @@
           </div>
         </div>
       </div>
+        <div>
+          <iframe style='display: none' id='frame' width='80%' height='400' frameborder='0'></iframe>
+      </div>
     
       <footer class="pt-4 my-md-5 pt-md-5 border-top" id="ro_footer">
         <p>Copyright &copy; 2020 Infoser sistemas sa. All Rights Reserved.</p>
       </footer>
     </div>
-
+    
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -163,6 +168,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-    
+    <script src="/js/rodri_power.js"></script>
+
+   
   </body>
 </html>
